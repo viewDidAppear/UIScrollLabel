@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		06CB2A771FB71436001C15B2 /* UIScrollLabel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06CB2A6D1FB71436001C15B2 /* UIScrollLabel.framework */; };
 		06CB2A7C1FB71436001C15B2 /* UIScrollLabelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06CB2A7B1FB71436001C15B2 /* UIScrollLabelTests.swift */; };
-		06CB2A7E1FB71436001C15B2 /* UIScrollLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 06CB2A701FB71436001C15B2 /* UIScrollLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		06CB2A881FB7146E001C15B2 /* UIScrollLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06CB2A871FB7146E001C15B2 /* UIScrollLabel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,11 +24,11 @@
 
 /* Begin PBXFileReference section */
 		06CB2A6D1FB71436001C15B2 /* UIScrollLabel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UIScrollLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		06CB2A701FB71436001C15B2 /* UIScrollLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIScrollLabel.h; sourceTree = "<group>"; };
 		06CB2A711FB71436001C15B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		06CB2A761FB71436001C15B2 /* UIScrollLabelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIScrollLabelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		06CB2A7B1FB71436001C15B2 /* UIScrollLabelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIScrollLabelTests.swift; sourceTree = "<group>"; };
 		06CB2A7D1FB71436001C15B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06CB2A871FB7146E001C15B2 /* UIScrollLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIScrollLabel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,7 +71,7 @@
 		06CB2A6F1FB71436001C15B2 /* UIScrollLabel */ = {
 			isa = PBXGroup;
 			children = (
-				06CB2A701FB71436001C15B2 /* UIScrollLabel.h */,
+				06CB2A871FB7146E001C15B2 /* UIScrollLabel.swift */,
 				06CB2A711FB71436001C15B2 /* Info.plist */,
 			);
 			path = UIScrollLabel;
@@ -93,7 +93,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				06CB2A7E1FB71436001C15B2 /* UIScrollLabel.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -148,6 +147,7 @@
 				TargetAttributes = {
 					06CB2A6C1FB71436001C15B2 = {
 						CreatedOnToolsVersion = 9.0;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
 					06CB2A751FB71436001C15B2 = {
@@ -196,6 +196,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06CB2A881FB7146E001C15B2 /* UIScrollLabel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -334,6 +335,7 @@
 		06CB2A821FB71436001C15B2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -347,6 +349,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.cocotutch.UIScrollLabel;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -355,6 +358,7 @@
 		06CB2A831FB71436001C15B2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -376,6 +380,7 @@
 		06CB2A851FB71436001C15B2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = EPUH4VBJNY;
 				INFOPLIST_FILE = UIScrollLabelTests/Info.plist;
@@ -390,6 +395,7 @@
 		06CB2A861FB71436001C15B2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = EPUH4VBJNY;
 				INFOPLIST_FILE = UIScrollLabelTests/Info.plist;

@@ -26,6 +26,20 @@ pid.text = "The next station is KOKKAIGIDJIDOMAE. The doors on the left-hand sid
 
 You can set the `textColor` and `text` right from Interface Builder, too! :tada:
 
+## GIFs
+
+_Ease In Ease Out_
+<img src="https://github.com/topLayoutGuide/UIScrollLabel/blob/master/GIFs/pid_eio.gif"/>
+
+_Ease In_
+<img src="https://github.com/topLayoutGuide/UIScrollLabel/blob/master/GIFs/pid_ei.gif"/>
+
+_Ease Out_
+<img src="https://github.com/topLayoutGuide/UIScrollLabel/blob/master/GIFs/pid_eo.gif"/>
+
+_Linear_
+<img src="https://github.com/topLayoutGuide/UIScrollLabel/blob/master/GIFs/pid_l.gif"/>
+
 ## License
 
 `UIScrollLabel` is released under the [MIT license](https://github.com/topLayoutGuide/UIScrollLabel/blob/master/LICENSE).

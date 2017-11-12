@@ -28,16 +28,16 @@ You can set the `textColor` and `text` right from Interface Builder, too! :tada:
 
 ## GIFs
 
-_Ease In Ease Out_
+_Ease In Ease Out_<br/>
 <img src="https://github.com/topLayoutGuide/UIScrollLabel/blob/master/GIFs/pid_eio.gif"/>
 
-_Ease In_
+_Ease In_<br/>
 <img src="https://github.com/topLayoutGuide/UIScrollLabel/blob/master/GIFs/pid_ei.gif"/>
 
-_Ease Out_
+_Ease Out_<br/>
 <img src="https://github.com/topLayoutGuide/UIScrollLabel/blob/master/GIFs/pid_eo.gif"/>
 
-_Linear_
+_Linear_<br/>
 <img src="https://github.com/topLayoutGuide/UIScrollLabel/blob/master/GIFs/pid_l.gif"/>
 
 ## License

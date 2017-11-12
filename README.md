@@ -6,7 +6,7 @@ A marquee `UILabel` implementation, which utilises `UIScrollView` and `CADisplay
 ## Installation with CocoaPods
 
 ```ruby
-pod 'UICollectionViewLeftAlignedLayout'
+pod 'UIScrollLabel'
 ```
 
 ## Usage
@@ -14,6 +14,10 @@ pod 'UICollectionViewLeftAlignedLayout'
 Simply set `UIScrollLabel` as the subclass of your `UIScrollView` object, set the text in code, and you're good to go!
 
 ```swift
+import UIScrollLabel
+
+// ...
+
 let pid = UIScrollLabel(frame: CGRect(x: 0, y: 0, width: screenWidth, height: 60))
 pid.font = UIFont.boldSystemFont(ofSize: 40)
 pid.textColor = UIColor.red

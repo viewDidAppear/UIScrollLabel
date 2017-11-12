@@ -1,0 +1,31 @@
+{
+  "name": "UIScrollLabel",
+  "version": "1.0.0",
+  "summary": "A subclass of UIScrollView which behaves like a marquee label. Uses UILabel and CADisplayLink under the hood.",
+  "description": "A subclass of `UIScrollView` which behaves like a marquee label. Uses `UILabel` and `CADisplayLink` under the hood.",
+  "homepage": "https://github.com/topLayoutGuide/UIScrollLabel",
+  "screenshots": "https://raw.githubusercontent.com/topLayoutGuide/UIScrollLabel/master/screenshot.png",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Benjamin Yan Jurgis Dietzkis": "ben.kawabata@gmail.com"
+  },
+  "social_media_url": "http://twitter.com/topLayoutGuide",
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source": {
+    "git": "https://github.com/topLayoutGuide/UIScrollLabel.git",
+    "tag": "1.0.0"
+  },
+  "source_files": [
+    "UIScrollLabel",
+    "UIScrollLabel/**/*.{swift}"
+  ],
+  "requires_arc": true,
+  "pod_target_xcconfig": {
+    "SWIFT_VERSION": "4"
+  }
+}

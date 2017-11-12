@@ -1,0 +1,16 @@
+PODS:
+  - UIScrollLabel (1.0.0)
+
+DEPENDENCIES:
+  - UIScrollLabel (from `..`)
+
+EXTERNAL SOURCES:
+  UIScrollLabel:
+    :path: ".."
+
+SPEC CHECKSUMS:
+  UIScrollLabel: 8539b7477285c231d915026ce9f63a324575bebf
+
+PODFILE CHECKSUM: 24855dcb69ce4347dea5dd94248957fd1bd05f92
+
+COCOAPODS: 1.2.1

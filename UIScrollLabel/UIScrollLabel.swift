@@ -57,11 +57,23 @@ public enum ScrollDirection {
 		willSet(newValue) {
 			if newValue == textColor { return }
 		}
+		
+		didSet {
+			labels.forEach {
+				$0.textColor = textColor
+			}
+		}
 	}
 	
 	public var font: UIFont = UIFont.systemFont(ofSize: 16) {
 		willSet(newValue) {
 			if newValue == font {	return }
+		}
+		
+		didSet {
+			labels.forEach {
+				$0.font = font
+			}
 		}
 	}
 	
@@ -71,7 +83,12 @@ public enum ScrollDirection {
 		}
 	}
 	
-	public var animationCurve: UIViewAnimationOptions = .curveEaseInOut
+	public var animationCurve: UIViewAnimationOptions = .curveEaseInOut {
+		didSet {
+			configure()
+		}
+	}
+
 	public var scrollSpeed: TimeInterval = 6 // seconds
 	public var spaceBetweenLabels: CGFloat = 40 // points
 	public private(set) var isScrolling: Bool = false

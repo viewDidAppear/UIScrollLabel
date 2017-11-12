@@ -1,0 +1,6 @@
+framework module UIScrollLabel {
+  umbrella header "UIScrollLabel-umbrella.h"
+
+  export *
+  module * { export * }
+}
